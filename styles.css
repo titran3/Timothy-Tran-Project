@@ -1,0 +1,104 @@
+/* The code on lines 2-4 centers the text of all h1's on the page.*/
+.cool {
+    font-size: 40px;
+    background: none;
+    color: white;
+}
+
+body {
+    background-color: #d9b99b;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+
+/*The code on lines 6-11 centers all images on the page and gives them a width of 400px.*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    border-radius: 50px;
+    margin-bottom: -150px;
+    margin-top: -50px;
+    border: solid 5px white;
+    border-bottom: solid 10px white;
+        transition: width 1s;
+    transition-timing-function: ease;
+}
+
+img:hover {
+    width: 1100px;
+}
+
+.cookie {
+    background-color: #D3BC8D;
+    padding: 20px;
+}
+
+#myimage {
+    width: 1200px;
+    height: 1100px;
+    margin: 72px;
+    display: flex;
+    justify-content: center;
+    border: solid 7px white;
+}
+
+/* The code on lines 14-16 centers the text of all h2's on the page*/
+h2 {
+    font-size: 35px;
+    text-align: center;
+    color: #7f5539;
+    background-color: #e6ccb2;
+    border-radius: 30px;
+    padding: 60px;
+    width: 85%;
+    margin: 70px;
+    border-bottom: solid 5px #936E4D;
+}
+
+.title {
+    background-color: brown;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
+.sectionsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* The code on lines 25-28 gives  a solid black border to section and puts space between them (the margin) */
+.section {
+    padding: 50px;
+}
+
+.tt {
+    background-color: #936E4D;
+    padding: 10px;
+    border-radius: 30px;
+    border-bottom: solid 5px #9F7B5D;
+}
+
+header {
+    background-color: #906B4C;
+    border-bottom: solid 5px;
+    padding: 62px 16px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-bottom: -25px;
+}
